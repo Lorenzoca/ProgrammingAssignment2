@@ -8,7 +8,7 @@
 
 makeCacheMatrix <- function(x = matrix()){
         inv <- NULL
-        
+
         # re-defines x as a new matrix
         set <- function(y) {
                 x <<- y
